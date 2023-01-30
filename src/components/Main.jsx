@@ -5,8 +5,8 @@ import AvatarAnisha from "../images/avatar-anisha.png";
 import AvatarRichard from "../images/avatar-richard.png";
 import AvatarShanai from "../images/avatar-shanai.png";
 
-const getWindowSize = function () {
-  return window.innerWidth >= 1028 ? 2 : 0;
+const getCarouselItemsLength = function () {
+  return window.innerWidth >= 1028 ? 3 : 1;
 };
 
 function Main() {
@@ -44,7 +44,7 @@ function Main() {
   });
 
   const carouselInfiniteScroll = function () {
-    if (currentIndex === data.length - getWindowSize() - 1)
+    if (currentIndex === data.length - getCarouselItemsLength())
       return setCurrentIndex(0);
 
     return setCurrentIndex(currentIndex + 1);
