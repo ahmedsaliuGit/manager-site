@@ -128,7 +128,7 @@ function Main() {
                     <img
                       src={test.image}
                       alt="thumbnail"
-                      className="w-1/4 md:w-[15%] absolute top-0 inset-x-0 mx-auto"
+                      className="w-1/4 md:w-[15%] lg:w-[23%] absolute top-0 inset-x-0 mx-auto"
                     />
                     <figcaption className="text-dark-blue font-bold mb-5">
                       {test.name}
@@ -155,18 +155,18 @@ function Main() {
           </div>
 
           <div className="text-center mt-12">
-            <button className="py-4 px-8 text-white font-medium bg-b-red rounded-full shadow-bottom mx-auto">
+            <button className="py-4 px-8 text-white font-medium bg-b-red rounded-full shadow-bottom mx-auto lg:hover:bg-opacity-50">
               Get Started
             </button>
           </div>
         </div>
 
-        <div className="py-24 text-center bg-[url('images/bg-simplify-section-mobile.svg')] bg-no-repeat bg-[left_top_3em] bg-b-red">
-          <div className="w-11/12 container mx-auto">
-            <h1 className="text-white text-4xl font-bold leading-[1.3em] px-4">
+        <div className="py-24 lg:py-16 lg:mt-40 text-center lg:text-left bg-[url('images/bg-simplify-section-mobile.svg')] bg-no-repeat bg-[left_top_3em] lg:bg-[url('images/bg-simplify-section-desktop.svg')] lg:bg-[left_10em_top_-7em] bg-b-red">
+          <div className="w-11/12 container mx-auto lg:flex justify-between items-center">
+            <h1 className="text-white text-4xl font-bold leading-[1.3em] px-4 lg:px-0 lg:w-2/5">
               Simplify how your team works today.
             </h1>
-            <button className="py-4 px-8 text-b-red font-medium bg-white rounded-full shadow-bottom mx-auto mt-5">
+            <button className="py-3 px-8 text-b-red font-medium bg-white rounded-full shadow-bottom mx-auto lg:mx-0 lg:ml-auto mt-5 lg:mt-0 lg:hover:text-opacity-50">
               Get Started
             </button>
           </div>

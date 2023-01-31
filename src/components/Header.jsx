@@ -33,24 +33,24 @@ function Header() {
           </button>
           <nav className="hidden lg:block">
             <ul className="flex justify-between items-center text-dark-blue">
-              <li className="ml-10">
+              <li className="ml-10 hover:text-dark-grayish-blue">
                 <a href="#home">Pricing</a>
               </li>
-              <li className="ml-10">
+              <li className="ml-10 hover:text-dark-grayish-blue">
                 <a href="#home">Product</a>
               </li>
-              <li className="ml-10">
+              <li className="ml-10 hover:text-dark-grayish-blue">
                 <a href="#home">About Us</a>
               </li>
-              <li className="ml-10">
+              <li className="ml-10 hover:text-dark-grayish-blue">
                 <a href="#home">Careers</a>
               </li>
-              <li className="ml-10">
+              <li className="ml-10 hover:text-dark-grayish-blue">
                 <a href="#home">Community</a>
               </li>
             </ul>
           </nav>
-          <button className="hidden lg:block py-4 px-8 text-white font-medium bg-b-red rounded-full shadow-bottom">
+          <button className="hidden lg:block py-3 px-8 text-white font-medium bg-b-red rounded-full shadow-bottom hover:bg-opacity-50">
             Get Started
           </button>
           <nav
@@ -91,7 +91,7 @@ function Header() {
                 Manage makes it simple for software teams to plan day-to-day
                 tasks while keeping the larger team goals in view.
               </p>
-              <button className="py-4 px-8 text-white font-medium bg-b-red rounded-full shadow-bottom">
+              <button className="py-3 px-8 text-white font-medium bg-b-red rounded-full shadow-bottom hover:bg-opacity-50">
                 Get Started
               </button>
             </div>
